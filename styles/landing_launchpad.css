@@ -1,0 +1,56 @@
+/* Universal*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Fonts */
+
+.inter-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.raleway-raleway {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* Hero Section */
+.hero_banner{
+    background-image: url(/Assets/Hero-bg.png);
+    background-size: cover;
+    height: 600px;
+}
+.nav_bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px 50px 100px;
+}
+.nav_bar h2{
+    font-size: 34px;
+    font-weight: 900;
+    
+}
+button{
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 10px;
+    padding: 12px 36px;
+    color: white;
+    background-color: #4E47FF;
+    border: none;
+}
+.hero_content{
+    text-align: center;
+    margin-top: 128px;
+    margin-bottom: 152;
+}
+.hero_content h2{
+    color: #252432;
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 37px;
+}

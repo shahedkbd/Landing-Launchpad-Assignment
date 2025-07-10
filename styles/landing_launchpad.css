@@ -78,6 +78,7 @@ button{
     font-size: 24px;
     font-weight: 400;
     margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.5);
 }
 
 .see_action img{
@@ -86,5 +87,26 @@ button{
 
 /* section 2 */
 .users_content{
-
+    text-align: center;
+    background-color: #e5e7ff;
+    margin: 0px 150px;
+    padding: 50px 140px;
 }
+
+.users_info{
+    display: flex;
+    justify-content: space-around;
+}
+.users_info h2{
+    font-size: 80px;
+    font-weight: 700;
+    color: #4E47FF;
+    /* margin-top: 10px; */
+}
+
+.users_info p{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* Section 3 */

@@ -161,3 +161,32 @@ button{
     color: #B3B3B3;
 }
 
+/* Section 4*/
+.focus_better{
+    background-color: white;
+    margin: 140px 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.focus_better_content{
+    padding: 71px 150px;
+}
+.focus_better_content h2{
+    margin-bottom: 20px;
+}
+.focus_better_content p{
+    margin-bottom: 20px;
+}
+.focus_better_content button{
+    margin-bottom: 20px;
+}
+.focus_better_content img{
+    border-radius: 48px;
+    
+}
+
+
+

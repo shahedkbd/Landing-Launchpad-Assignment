@@ -91,6 +91,7 @@ button{
     background-color: #e5e7ff;
     margin: 0px 150px;
     padding: 50px 140px;
+    border-radius: 24px;
 }
 
 .users_info{
@@ -101,7 +102,6 @@ button{
     font-size: 80px;
     font-weight: 700;
     color: #4E47FF;
-    /* margin-top: 10px; */
 }
 
 .users_info p{
@@ -169,6 +169,7 @@ button{
     justify-content: center;
     align-items: center;
     text-align: center;
+    border-radius: 24px;
 }
 
 .focus_better_content{
@@ -190,7 +191,8 @@ button{
 
 /* Section 5 */
 .get_in_touch{
-    margin: 140px 150px;
+    margin: 140px 150px 0px 150px;
+    padding-bottom: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -221,4 +223,27 @@ button{
     width: 370px;
 }
 
+/* footer section */
+footer{
+    text-align: center;
+    padding: 90px 400px;
+}
+footer h2{
+    font-size: 100px;
+    color: #4E47FF;
+}
+footer p{
+    color: #757575;
+    margin: 10px;
+    margin-bottom: 30px;
+}
+.menu_list{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer a{
+    text-decoration: none;
+    color: #757575;
+}
 

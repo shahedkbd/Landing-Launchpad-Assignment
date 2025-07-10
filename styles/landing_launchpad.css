@@ -110,3 +110,54 @@ button{
 }
 
 /* Section 3 */
+
+.users_review{
+    margin-top: 140px;
+}
+.users_review h2{
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 30px;
+}
+.users_review_flex{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 150px;
+    gap: 30px;
+
+}
+.user_data{
+    display: flex;
+    
+}
+.user_data img{
+    border-radius: 50px;
+    margin-right: 20px;
+}
+
+.users_review_user_1{
+    background-color: white;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.users_review_user_1 h3{
+    margin-top: 12px;
+}
+.users_review_user_1 p{
+    margin-top: 12px;
+}
+.users_review_user_1 .user_data{
+    margin-top: 15px;
+}
+.user_data_name{
+    text-align: left;
+}
+
+.user_data_name h5{
+    color: #757575;
+}
+.user_data_name p{
+    color: #B3B3B3;
+}
+

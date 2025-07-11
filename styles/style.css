@@ -20,7 +20,7 @@
 
 /* Hero Section */
 .hero_banner{
-    background-image: url("/Assets/Hero-bg.png");
+    background-image: url("../Assets/Hero-bg.png");
     background-size: cover;
     height: 600px;
 }

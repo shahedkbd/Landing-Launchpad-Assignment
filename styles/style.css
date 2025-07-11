@@ -20,7 +20,7 @@
 
 /* Hero Section */
 .hero_banner{
-    background-image: url(/Assets/Hero-bg.png);
+    background-image: url("/Assets/Hero-bg.png");
     background-size: cover;
     height: 600px;
 }
@@ -32,6 +32,7 @@
 .nav_bar h2{
     font-size: 34px;
     font-weight: 900;
+    color: #4E47FF;
     
 }
 button{

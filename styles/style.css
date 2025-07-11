@@ -165,19 +165,17 @@ button{
 /* Section 4*/
 .focus_better{
     background-color: white;
-    margin: 140px 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     text-align: center;
+    margin: 120px 150px;
     border-radius: 24px;
 }
 
 .focus_better_content{
-    padding: 71px 150px;
+    padding: 71px 0px 0px 0px;
 }
 .focus_better_content h2{
     margin-bottom: 20px;
+    font-size: 50px;
 }
 .focus_better_content p{
     margin-bottom: 20px;
@@ -185,43 +183,42 @@ button{
 .focus_better_content button{
     margin-bottom: 20px;
 }
-.focus_better_content img{
+.focus_better img{
     border-radius: 48px;
-    
+    margin-bottom: 71px;  
 }
 
 /* Section 5 */
 .get_in_touch{
+    display: flex;
+    justify-content: space-between;
     margin: 140px 150px 0px 150px;
     padding-bottom: 50px;
-    display: flex;
-    justify-content: center;
     align-items: center;
-    text-align: center;
-
 }
 
-.get_in_touch h2{
+.gt_content h2{
     font-size: 97px;
-    margin-right: 140px;
-}
-.get_in_touch form h3{
-    font-size: 18px;
-    margin-bottom: 10px;
+    padding-right: 115px;
 }
 
-.my_form input , textarea{
-    width: 300px;
-}
-.input_data , textarea{
-    padding: 20px 32px;
+.my_form form h3{
+    font-size: 18px;
+    margin-bottom: 20px;
+} 
+
+.my_form form input , textarea {
+    width: 400px;
     border-radius: 10px;
-    background-color: white;
-    margin-bottom: 15px;
+    padding: 22px 20px;
+    margin-bottom: 20px;
     border: 2px solid #B3B3B3;
 }
-.my_form button{
-    width: 370px;
+.my_form form button{
+    width: 445px;
+}
+.input_data{
+    font-size: 20px;
 }
 
 /* footer section */

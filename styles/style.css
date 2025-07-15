@@ -248,6 +248,10 @@ footer p{
 footer a{
     text-decoration: none;
     color: #757575;
+    
+}
+footer ul li{
+    list-style: none;
 }
 footer a:hover{
     background-color:brown;
